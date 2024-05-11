@@ -1,0 +1,51 @@
+.d-lg-flex {
+    overflow: hidden;
+}
+
+#bg {
+    width: 100%;
+    height: auto;
+}
+
+.btn2 {
+    top: 52.4%;
+    left: 10%;
+}
+
+.btn3 {
+    top: 86%;
+    /* left: 10%; */
+    display: none;
+}
+
+.btn3 img {
+    width: 60%;
+    animation: pulse 0.8s infinite linear;
+    animation-delay: 1s;
+}
+
+/* #winbtn {
+    display: flex;
+} */
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #bg {
+        height: 100vh;
+    }
+
+}
